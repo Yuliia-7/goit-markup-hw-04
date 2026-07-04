@@ -30,6 +30,7 @@
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
+  position: relative;
   gap: 40px;
   font-weight: 500;
   font-size: 16px;
@@ -48,6 +49,20 @@
 .nav-items-link:hover,
 .nav-items-link:focus {
   color: #404bbf;
+}
+
+.nav-items-link.underline {
+  color: #404bbf;
+}
+.nav-items-link.underline::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+  width: 65px;
+  height: 4px;
+  background-color: #404bbf;
 }
 
 .contacts-link:hover,

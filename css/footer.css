@@ -17,9 +17,9 @@
 .footer-left {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 16px;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -39,4 +39,45 @@
   color: #f4f4fd;
   letter-spacing: 0.02em;
   width: 264px;
+}
+
+.footer-sm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-items {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer-items-link a {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms ccubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-items-link a:hover,
+.footer-items-link a:focus {
+  background-color: #404bbf;
+}
+.footer-items-link svg {
+  fill: currentColor;
 }

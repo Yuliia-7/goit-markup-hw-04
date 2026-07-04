@@ -20,6 +20,10 @@
 
 .team-list {
   background-color: #fff;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
   display: flex;
   align-items: flex-start;
@@ -59,4 +63,30 @@
 .team-text {
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+.team-link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.team-link a {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms ccubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-link a:hover,
+.team-link a:focus {
+  background-color: #404bbf;
+}
+.team-link svg {
+  fill: currentColor;
 }
