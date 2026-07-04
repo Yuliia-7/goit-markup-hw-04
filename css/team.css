@@ -71,12 +71,17 @@
   gap: 24px;
 }
 
+.team-link li {
+  width: 40px;
+  height: 40px;
+}
+
 .team-link a {
   border-radius: 40px;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
-  color: #ffffff;
+  color: #f4f4fd;
   display: flex;
   justify-content: center;
   align-items: center;
