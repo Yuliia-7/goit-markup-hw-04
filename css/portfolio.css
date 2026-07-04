@@ -10,7 +10,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
   column-gap: 24px;
   row-gap: 48px;
   transition: box-shadow 250ms ccubic-bezier(0.4, 0, 0.2, 1);
